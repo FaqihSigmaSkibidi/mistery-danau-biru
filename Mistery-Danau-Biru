@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misteri di Balik Danau Biru</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Misteri di Balik Danau Biru</h1>
+        <p>Petualangan Seru Mengungkap Rahasia di Balik Danau</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#bab1">Bab 1: Panggilan Petualangan</a></li>
+            <li><a href="#bab2">Bab 2: Tim Penyelidik</a></li>
+            <li><a href="#bab3">Bab 3: Malam di Danau Biru</a></li>
+            <li><a href="#bab4">Bab 4: Rahasia Terungkap</a></li>
+            <li><a href="#bab5">Bab 5: Kembali dengan Pengetahuan Baru</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="bab1">
+            <h2>Bab 1: Panggilan Petualangan</h2>
+            <p>Di sebuah kota kecil bernama Lembah Hijau, terdapat danau indah yang dikenal sebagai Danau Biru. Namun, danau tersebut menyimpan misteri yang belum terpecahkan...</p>
+        </section>
+
+        <section id="bab2">
+            <h2>Bab 2: Tim Penyelidik</h2>
+            <p>Dira mengajak dua sahabatnya, Bima dan Sari, untuk bergabung dalam penyelidikan. Bima adalah anak yang cerdas dan suka sains, sementara Sari adalah gadis pemberani...</p>
+        </section>
+
+        <section id="bab3">
+            <h2>Bab 3: Malam di Danau Biru</h2>
+            <p>Pada malam bulan purnama, Dira, Bima, dan Sari menuju ke tepi Danau Biru. Mereka mendirikan kemah kecil di dekat danau dan menunggu dengan sabar hingga cahaya aneh itu muncul...</p>
+        </section>
+
+        <section id="bab4">
+            <h2>Bab 4: Rahasia Terungkap</h2>
+            <p>Dira, Bima, dan Sari memutuskan untuk mendekati cahaya tersebut dengan menggunakan perahu dayung. Dengan hati-hati, mereka mendayung menuju pusat danau...</p>
+        </section>
+
+        <section id="bab5">
+            <h2>Bab 5: Kembali dengan Pengetahuan Baru</h2>
+            <p>Setelah menemukan rahasia di balik Danau Biru, Dira, Bima, dan Sari kembali ke kota dan membagikan penemuan mereka kepada penduduk...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Misteri di Balik Danau Biru</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background: #4682b4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background: #87ceeb;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #4682b4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+// Placeholder for future interactive features
+console.log("Website for Misteri di Balik Danau Biru loaded.");
